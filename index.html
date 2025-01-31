@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Shop</title>
-    
+
     <link
     href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
     rel="stylesheet"
@@ -39,5 +39,115 @@
     }
   </script>
   </head>
-  <body></body>
+  <body class="font-sora">
+
+    <div class="navbar bg-base-100 bg-amber-50 px-10  ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <i class="text-3xl fa-solid fa-paw text-yellow-400 items-center mr-2"></i>
+          <a class="hidden md:inline-flex text-xl">Browse<span class="text-yellow-400">4</span>pets</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Find a pet</a></li>
+            <li><a href="">Breeds</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-4 ">
+            <div class="hidden md:inline">
+                <i class="mr-3 fa-regular fa-bell"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          <a class="text-white btn btn-outline btn-warning hidden md:inline-flex">Login</a>
+          <a class="btn btn-warning px-7 hidden md:inline-flex">Register</a>
+        </div>
+      </div>
+      <div>
+          <i class=" relative -left-10 -top-10 flex justify-end fa-solid fa-bars md:hidden"></i>
+      </div>
+      <hr class="border-2 border-black md:hidden relative -top-4">
+
+      <section class="container px-14 mx-auto my-14">
+        <div class="md:w-1/2 z-10">
+            <h1 class="text-6xl font-bold">Pamper Your Pet, Because They Deserve the Bes</h1>
+            <h3 class="text-3xl text-gray-600 my-4">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</h3>
+            <a class="btn btn-warning px-7 my-5 ">Find a pet</a>
+        </div>
+        <img class="relative -top-28 md:-top-[450px] -z-10 w-full mx-auto" src="c1-assets/cat-big.png" alt="">
+        <div>
+        </div>
+        </section>
+        <section class="bg-slate-400 grid grid-cols-2 md:grid-cols-6 
+        relative md:-top-[500px] justify-center mx-16">
+            <div class="border-2">
+                <img src="c1-assets/dog-cartoon.png" alt="">
+                <h1 class="text-2xl font-bold">
+                    Dog
+                </h1>
+                <h3 class="text-xl">
+                    3 items
+                </h3>
+            </div>
+
+            <div>
+                <img src="c1-assets/dog-cartoon.png" alt="">
+                <h1 class="text-2xl font-bold">
+                    Dog
+                </h1>
+                <h3 class="text-xl">
+                    3 items
+                </h3>
+            </div>
+
+            <div>
+                <img src="c1-assets/dog-cartoon.png" alt="">
+                <h1 class="text-2xl font-bold">
+                    Dog
+                </h1>
+                <h3 class="text-xl">
+                    3 items
+                </h3>
+            </div>
+
+            <div>
+                <img src="c1-assets/dog-cartoon.png" alt="">
+                <h1 class="text-2xl font-bold">
+                    Dog
+                </h1>
+                <h3 class="text-xl">
+                    3 items
+                </h3>
+            </div>
+
+            <div>
+                <img src="c1-assets/dog-cartoon.png" alt="">
+                <h1 class="text-2xl font-bold">
+                    Dog
+                </h1>
+                <h3 class="text-xl">
+                    3 items
+                </h3>
+            </div>
+
+            <div>
+                <img src="c1-assets/dog-cartoon.png" alt="">
+                <h1 class="text-2xl font-bold">
+                    Dog
+                </h1>
+                <h3 class="text-xl">
+                    3 items
+                </h3>
+            </div>
+
+        </section>
+  </body>
 </html>
