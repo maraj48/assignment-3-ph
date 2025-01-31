@@ -30,6 +30,9 @@
       .font-sora {
         font-family: "Sora", serif;
       }
+      .titlefont{
+        font-family: "ADLaM Display", serif;
+      }
     </style>
 
     <script>
@@ -92,7 +95,7 @@
 
     <section class="h-[749px] w-[1320] container px-14 mx-auto my-24">
       <div class="md:w-1/2 z-10">
-        <h1 class="text-6xl font-bold">
+        <h1 class="titlefont text-5xl font-bold">
           Pamper Your Pet, Because They Deserve the Bes
         </h1>
         <h3 class="text-3xl text-gray-600 my-4">
@@ -109,7 +112,7 @@
       <div></div>
     </section>
 
-    <h1 class="mx-16 relative text-5xl font-bold">Browse By Categories</h1>
+    <h1 class="titlefont mx-16 relative text-5xl font-bold">Browse By Categories</h1>
     <section
       class="bg-red-100 rounded-xl grid grid-cols-2 md:grid-cols-6 relative my-6 mb-10 gap-10 mx-16 text-center"
     >
@@ -182,12 +185,12 @@
       </div>
     </section>
 
-    <div class="z-20 petproduct max-h-[775px] max-w-[1601px] bg-[#FFF9F4] my-24">
-      <div class="text-3xl font-bold mx-14 py-24">Trending Pet Products</div>
+    <div class="z-20 petproduct max-h-[775px] w-full md:bg-[#FFF9F4] my-24">
+      <div class="titlefont text-3xl font-bold mx-14 py-24">Trending Pet Products</div>
 
       <div class="flex flex-col md:flex-row gap-5 justify-between mx-14 pb-32">
-        <div class="max-h-[402px] max-w-[424px] p-5 rounded-xl bg-[#F9DF8A]">
-          <h1 class="py-7 text-2xl font-bold">T- Shirt For Dogs</h1>
+        <div class="max-w-[702px] max-h-[402px] md:max-w-[424px] p-5 rounded-xl bg-[#F9DF8A] mb-10">
+          <h1 class="titlefont py-7 text-2xl font-bold">T- Shirt For Dogs</h1>
           <h3 class="text-gray-600 mb-5">
             Discover a world of treats, toys, and essentials handpicked for
           </h3>
@@ -333,19 +336,53 @@
             </div>
           </div>
         </div>
-        <!-- <div class=" max-h-[402px] max-w-[424px] p-5 rounded-xl bg-[#F9DF8A]">
-            <h1 class="py-7 text-2xl font-bold">
-                T- Shirt For Dogs
-            </h1>
-            <h3 class="text-gray-600 mb-5">
-                Discover a world of treats, toys, and essentials handpicked for
-            </h3>
-            <button class="px-10 bg-white rounded-l py-2">Shop Now</button>
-            <div class="flex justify-end relative -top-36">
-                <img src="c1-assets/cute-pet-small.png" alt="">
-            </div>
-        </div> -->
       </div>
     </div>
+
+    <!-- before foooter section -->
+    <section class="mx-14 my-16">
+        <h1 class="text-4xl font-bold my-16">
+            Everyday low Price
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 space-x-5 ">
+            <div class="first flex justify-between p-5 col-span-2
+            bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
+                <div class="t my-28 p-16">
+                    <p class="my-4">
+                        Under price
+                    </p>
+                    <h1 class="titlefont text-2xl font-bold my-4">
+                        Pet Grooming Mitt
+                    </h1>
+                    <h4 class="text-white mb-4">
+                        (easy Hair Remove)
+                    </h4>
+                    <h1 class="titlefont text-5xl font-bold">
+                        $7.99
+                    </h1>
+                </div>
+                <div class="p">
+                    <img src="c1-assets/cute-dog-mid.png" alt="">
+                </div>
+            </div>
+
+            <div class="mt-8 first flex justify-between p-5 w-full
+            bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl">
+                <div class="my-10">
+                    <h1 class="titlefont text-2xl font-bold my-4">
+                        T-Shirt for Dogs
+                    </h1>
+                    
+                    <h1 class="titlefont text-5xl font-bold text-yellow-400">
+                        $7.99
+                    </h1>
+                </div>
+                <div class="p">
+                    <img src="c1-assets/cute-pet-mid.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
   </body>
 </html>
